@@ -1,0 +1,17 @@
+Test Case ID,Description,Expected Result,Actual Result,Status,Severity,Remark
+TC001,Navigation links,All links navigate correctly,Some links fail to navigate,Fail,High,Fix routing for broken links
+TC002,User Registration and Login,User data is stored and login is successful,Data is not attached to DB,Fail,Critical,Fix DB connection and user data storage
+TC003,Help Route,Icons and information respond properly,Icons do not respond,Fail,Medium,Ensure icon click events are handled
+TC004,Sign-in Functionality,User can sign in successfully,No response after submitting data,Fail,Critical,Debug backend for sign-in data handling
+TC005,Gift Cards and Vouchers,Voucher window opens and works correctly,Works as expected,Pass,Low,No issues found
+TC006,Add to Cart,Captures data and proceeds to checkout,Fails to capture real-time data,Fail,Critical,Add data capture and checkout functionality
+TC007,Search Bar,Search returns results dynamically,Search works only with hardcoded words,Fail,High,Implement dynamic search functionality
+TC008,Video Embedding,YouTube video plays without issues,Works fine,Pass,Low,No issues found
+TC009,Buttons for Men/Women,Navigate to appropriate routes,Works fine,Pass,Low,No issues found
+TC010,Picture Cards,Navigate to desired category on click,No navigation functionality,Fail,Medium,Add event handling for navigation
+TC011,Trending Week Cards,Navigate to product details on click,No click event mechanism,Fail,Medium,Implement click event for product details
+TC012,Explore More Categories,Navigate to category-specific pages,No navigation functionality,Fail,High,Fix navigation for category pages
+TC013,Footers,Navigate to specified routes,Navigation not implemented,Fail,Medium,Add footer navigation functionality
+TC014,Shop Now Button,Proceed to product list on click,No functionality on click,Fail,Critical,Implement shop now functionality
+TC015,Dynamic Product Route,Load product details on click,API failed to fetch product details,Fail,Critical,Debug API to fetch product details correctly
+TC016,Overall Responsive Design,Responsive across all devices,Works as expected,Pass,Low,No issues found
